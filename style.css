@@ -1,0 +1,52 @@
+body{
+    background-image: radial-gradient(white,rgb(255, 255, 255),white,black);
+    background-repeat: no-repeat;
+    height: 100svh;
+}
+
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-image: linear-gradient(white, rgb(0, 0, 0));
+    border: solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 50%;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  }
+  h1{
+    color: black;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  input[type="number"], input[type="text"] {
+    width: 100px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #000000;
+    cursor: pointer;
+  }
